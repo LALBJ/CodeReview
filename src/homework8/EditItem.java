@@ -1,0 +1,10 @@
+package homework8;
+
+public class EditItem implements Command{
+    BoardScreen screen;
+
+    @Override
+    public void execute() {
+        screen.edit();
+    }
+}
